@@ -4,7 +4,7 @@
  * @version: 
  * @Date: 2021-04-29 14:57:04
  * @LastEditors: Andy chen
- * @LastEditTime: 2021-04-29 17:41:49
+ * @LastEditTime: 2021-04-29 17:44:05
  */
 
 /* 
@@ -236,12 +236,10 @@
     注意：当你在TypeScript里使用JSX时，只有 as语法断言是被允许的。
 */    
 
-// 1."尖括号"语法：
-let someValue: any = "this is a string";
+    // 1."尖括号"语法：
+    let someValue: any = "this is a string";
+    let strLength: number = (<string>someValue).length;
 
-let strLength: number = (<string>someValue).length;
-
-// 2.as语法：
-let anyValue: any = "this is other string";
-
-let strsLength: number = (anyValue as string).length;
+    // 2.as语法：
+    let anyValue: any = "this is other string";
+    let strsLength: number = (anyValue as string).length;

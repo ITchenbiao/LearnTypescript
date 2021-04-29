@@ -5,7 +5,7 @@
  * @version:
  * @Date: 2021-04-29 14:57:04
  * @LastEditors: Andy chen
- * @LastEditTime: 2021-04-29 17:41:49
+ * @LastEditTime: 2021-04-29 17:44:05
  */
 /*
   typescript中为了使编写的代码更规范，更有利于维护，增加了类型校验，在typescript中主要给我们提供了以下数据类型:
