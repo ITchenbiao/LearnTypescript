@@ -4,7 +4,7 @@
  * @version: 
  * @Date: 2021-04-28 16:12:32
  * @LastEditors: Andy chen
- * @LastEditTime: 2021-04-29 14:39:17
+ * @LastEditTime: 2021-04-29 18:04:38
 -->
 # LearnTypeScript
 LearnTypeScript:Zero to One.
@@ -37,7 +37,10 @@ LearnTypeScript:Zero to One.
    -  可能和一些库结合的不是很完美。
 ## 3. 安装TypeScript  
   - 安装nodejs： <http://nodejs.cn/download/>
-  - 国内镜像： npm config set registry https://registry.npm.taobao.org
+  - 安装国内镜像： 
+    ```javascript
+        npm config set registry https://registry.npm.taobao.org
+    ```
   - 安装 typescript（在全局环境下安装 tsc 命令） 
     ```javascript
     npm install -g typescript 
@@ -64,9 +67,13 @@ LearnTypeScript:Zero to One.
 ## 5.直接在终端查看TypeScript运行结果
 想在控制台直接查看`.ts`文件，需要2个步骤：  
 1. 执行命令 `tsc hellotypescript.ts` 编译成`.js`文件(`hellotypescript`是ts文件名)
+    ```javascript
+    tsc hellotypescript.ts 
+    ```
 2. 在执行命令 `node hellotypescript.js` 才会在终端输出结果：
     ```javascript
-    hello,TypeScript. 
+    node hellotypescript.js
+    hello,TypeScript. //输出结果
     ```
 3. 为了更快在终端查看运行结果，我们可以全局安装ts-node 就可以一步到位：
    ```javascript
