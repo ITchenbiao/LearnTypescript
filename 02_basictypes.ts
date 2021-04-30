@@ -1,10 +1,10 @@
 /*
- * @Descripttion: typescript的数据类型
+ * @Descripttion: 2.typescript的数据类型
  * @Author: Andy chen
  * @version: 
  * @Date: 2021-04-29 14:57:04
  * @LastEditors: Andy chen
- * @LastEditTime: 2021-04-29 17:44:05
+ * @LastEditTime: 2021-04-30 16:04:57
  */
 
 /* 

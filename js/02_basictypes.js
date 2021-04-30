@@ -1,11 +1,11 @@
 "use strict";
 /*
- * @Descripttion: typescript的数据类型
+ * @Descripttion: 2.typescript的数据类型
  * @Author: Andy chen
  * @version:
  * @Date: 2021-04-29 14:57:04
  * @LastEditors: Andy chen
- * @LastEditTime: 2021-04-29 17:44:05
+ * @LastEditTime: 2021-04-30 16:04:57
  */
 /*
   typescript中为了使编写的代码更规范，更有利于维护，增加了类型校验，在typescript中主要给我们提供了以下数据类型:
